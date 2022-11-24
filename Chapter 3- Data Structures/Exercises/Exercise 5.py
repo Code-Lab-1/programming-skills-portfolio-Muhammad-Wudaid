@@ -1,0 +1,10 @@
+guests = ['Elon Musk', 'Bill Gates', 'Jeff Bezos']
+print(guests[0] + ", you are invited for dinner tonight.")
+print(guests[1] + ", you are invited for dinner tonight.")
+print(guests[2] + ", you are invited for dinner tonight.")
+print("Sorry, " + guests[0] + " can't make it to dinner")
+del(guests[0])
+guests.insert(0, 'Leonardo dicaprio')
+print(guests[0] + ", you are invited for dinner tonight.")
+print(guests[1] + ", you are invited for dinner tonight.")
+print(guests[2] + ", you are invited for dinner tonight.")
